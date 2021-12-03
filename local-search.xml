@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>scheme 数据结构</title>
+    <link href="/2021/12/03/scheme-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <url>/2021/12/03/scheme-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs shell">(+ 10 20)<br>=&gt; 20<br><br>(- 20 9)<br>=&gt; 11<br><br>(* 20 10)<br>=&gt; 200<br><br>(&lt; 30 20)<br>=&gt; #f<br><br>(&lt;= 20 20)<br>=&gt; #t<br><br>;数字比较<br>(= 20 30)<br>=&gt; #f<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>scheme</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>scheme编程语言在ubunto环境下安装</title>
     <link href="/2021/12/02/scheme%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%9C%A8ubunto%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85/"/>
     <url>/2021/12/02/scheme%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%9C%A8ubunto%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85/</url>
