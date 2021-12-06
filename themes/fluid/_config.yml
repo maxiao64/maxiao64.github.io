@@ -688,7 +688,7 @@ gitalk:
   clientID: 22d99b4cfc3aa92fed18
   clientSecret: 6a6ca12d34211da3cc2433901e148ec9fc5268f5
   repo: blog_comment
-  owner: xiaoma64
+  owner: maxiao64
   admin: ['name']
   language: zh-CN
   labels: ['Gitalk']
