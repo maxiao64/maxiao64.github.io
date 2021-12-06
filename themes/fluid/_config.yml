@@ -689,7 +689,7 @@ gitalk:
   clientSecret: 6a6ca12d34211da3cc2433901e148ec9fc5268f5
   repo: blog_comment
   owner: maxiao64
-  admin: ['name']
+  admin: ['maxiao64']
   language: zh-CN
   labels: ['Gitalk']
   perPage: 10
