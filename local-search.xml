@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>vscode安装golang插件报错Installing github.com/ramya-rao-a/go-outline@latest FAILED</title>
+    <link href="/2022/04/26/vscode%E5%AE%89%E8%A3%85golang%E6%8F%92%E4%BB%B6%E6%8A%A5%E9%94%99Installing-github-com-ramya-rao-a-go-outline-latest-FAILED/"/>
+    <url>/2022/04/26/vscode%E5%AE%89%E8%A3%85golang%E6%8F%92%E4%BB%B6%E6%8A%A5%E9%94%99Installing-github-com-ramya-rao-a-go-outline-latest-FAILED/</url>
+    
+    <content type="html"><![CDATA[<p>先查看一下gopath 目录在哪</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">go env|grep GOPATH<br>GOPATH=<span class="hljs-string">&quot;/Users/xiaoma/go&quot;</span><br></code></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs bash">mkdir -p /Users/xiaoma/go/src/golang.org/x/<br> <br><span class="hljs-built_in">cd</span> /Users/xiaoma/go/src/golang.org/x/<br> <br>git <span class="hljs-built_in">clone</span> https://github.com/golang/tools.git<br> <br><span class="hljs-built_in">export</span> GOPROXY=https://goproxy.cn,direct<br></code></pre></td></tr></table></figure><p>然后重启你的 vs code，再进行install all 就行了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>go</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>go</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>scheme 数据结构</title>
     <link href="/2021/12/03/scheme-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     <url>/2021/12/03/scheme-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
